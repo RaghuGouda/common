@@ -1,7 +1,7 @@
 /**
  * Class to create response to send
  */
-export class Response{
+class Response{
     static
     sendResponse(is_success,result,message,status_code){
         return {
@@ -12,3 +12,4 @@ export class Response{
         }
     }
 }
+module.exports = Response;

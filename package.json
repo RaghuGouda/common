@@ -5,8 +5,6 @@
   "main": "index.js",
   "files": [
     "/src/**/*",
-    ".babelrc",
-    "index.js",
     "package.json"
   ],
   "scripts": {
