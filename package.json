@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "files": [
-    "/src/**/*"
+    "/src/**/*",
+    ".babelrc",
+    "index.js",
+    "package.json"
   ],
   "scripts": {
     "build": "babel src -d dist"
