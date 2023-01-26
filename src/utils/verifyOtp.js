@@ -1,4 +1,4 @@
-import speakeasy from 'speakeasy'
+const speakeasy = require('speakeasy');
 
 const verifyOTP = async(secret_key,otp)=>{
     try {
