@@ -2,7 +2,6 @@
   "name": "@raghu-shop/common",
   "version": "1.0.3",
   "description": "",
-  "main": "index.js",
   "files": [
     "/src/**/*",
     "package.json"
