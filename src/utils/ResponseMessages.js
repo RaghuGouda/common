@@ -26,5 +26,7 @@ module.exports = Object.freeze({
 
     OTP_VERIFIED: 'OTP verified successfully',
 
-    USER_NOT_CREATED:'User is not created'
+    USER_NOT_CREATED:'User is not created',
+
+    AUTH_FAILED : 'Authentication Failed'
 })
