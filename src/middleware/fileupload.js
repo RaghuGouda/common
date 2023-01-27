@@ -13,4 +13,4 @@ const profileUpload = multer({
         cb(undefined,true)
     }
 })
-module.exports ={profileUpload}
+module.exports =profileUpload

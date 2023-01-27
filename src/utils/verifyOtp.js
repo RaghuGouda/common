@@ -14,4 +14,4 @@ const verifyOTP = async(secret_key,otp)=>{
     }
 }
 
-module.exports ={verifyOTP}
+module.exports =verifyOTP
