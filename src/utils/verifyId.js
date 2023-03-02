@@ -1,8 +1,8 @@
 const ObjectId = require('mongoose').Types.ObjectId;
 
-const varifyId = async(id)=>{
+const varifyId = async(req,res,next)=>{
     try {
-        if (!ObjectId.isValid(id)){
+        if (!ObjectId.isValid(req)){
             // return res.status(400).json({ error: 'invaild id' });
             throw new Error('invaild id')
         }
