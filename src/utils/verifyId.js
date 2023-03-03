@@ -1,15 +1,10 @@
 const ObjectId = require('mongoose').Types.ObjectId;
 
-const varifyId = async(req,res,next)=>{
+const varifyId = async(id)=>{
     try {
-        if (!ObjectId.isValid(req)){
-            // return res.status(400).json({ error: 'invaild id' });
-            return res.status(400).json({ error: 'invaild id' });
-        }
-        next()     
+        return ObjectId.isValid(id);    
     } catch (error) {
-        error.status = 400
-        res.status(400).send('invaild id')     
+        throw new Error(error)  
     }
 }
 module.exports= varifyId
